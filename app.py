@@ -137,5 +137,7 @@ def report():
     })
 
 if __name__ == '__main__':
-    # Run server on port 5000
-    app.run(host='127.0.0.1', port=5000, debug=True)
+    # Run server on port 5000 or dynamic PORT from env (required by Railway)
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port, debug=True)
+
