@@ -25,7 +25,6 @@
       <li><a href="#" data-tab="edu-tab">Edukasi</a></li>
       <li><a href="#" data-tab="about-tab">Tentang Kami</a></li>
     </ul>
-    <button class="nav-cta">Laporkan Clickbait</button>
   </nav>
 
   <!-- ─── 1. BERANDA TAB ─── -->
@@ -33,10 +32,6 @@
     <!-- Hero Section -->
     <section class="hero">
       <div class="hero-content">
-        <div class="hero-tag">
-          <span class="dot"></span>
-          Platform Verifikasi Berita #1 Indonesia
-        </div>
         <h1 class="hero-title">
           Bongkar<br>
           Jebakan<br>
@@ -54,81 +49,34 @@
           </span>
         </h1>
         <p class="hero-desc">
-          Deteksi pola clickbait, judul menyesatkan, dan manipulasi emosi dalam berita digital — sebelum kamu ikut
-          menyebarkannya.
+          Identifikasi judul berita clickbait secara otomatis menggunakan Natural Language Processing (NLP), sehingga pengguna dapat memverifikasi informasi sebelum menyebarkannya.
         </p>
         <div class="hero-actions">
-          <button class="btn-primary">🔍 Mulai Cek Sekarang</button>
+          <button class="btn-primary">🔍 Cek Judul Berita</button>
           <button class="btn-outline">📚 Direktori Clickbait</button>
         </div>
       </div>
 
       <div class="hero-visual">
-        <div class="phone-mockup">
-          <div class="phone-notch"></div>
-          <div class="phone-status-bar">
-            <span class="status-time">09:41</span>
-            <div class="phone-status-icons">
-              <span>📶</span>
-              <span>🛜</span>
-              <span>🔋</span>
-            </div>
+        <div class="sources-card">
+          <div class="sources-card-header">
+            <h3>Sumber Data Berita</h3>
+            <p>Model IndoBERT dilatih menggunakan data berita riil dari portal berita terkemuka di Indonesia:</p>
           </div>
-          <div class="phone-screen-title">ClickTrap Mobile</div>
-          <div class="news-card-fake">
-            <div class="card-source">
-              <span>⚠️</span>
-              sumberTidakJelas.com • 5 menit lalu
-            </div>
-            <div class="card-title-fake">Astaga! Artis Ini Makan Nasi Padang Pakai Tangan Kiri, Bikin Netizen Melongo!
-            </div>
+          <div class="sources-grid">
+            <div class="source-logo-item brand-detik">detikcom</div>
+            <div class="source-logo-item brand-kompas">Kompas.com</div>
+            <div class="source-logo-item brand-tempo">TEMPO.CO</div>
+            <div class="source-logo-item brand-liputan6">Liputan6</div>
+            <div class="source-logo-item brand-republika">REPUBLIKA</div>
+            <div class="source-logo-item brand-tribun">tribunnews</div>
+            <div class="source-logo-item brand-sindo">SINDONEWS</div>
+            <div class="source-logo-item brand-okezone">okezone</div>
+            <div class="source-logo-item brand-kapanlagi">KapanLagi</div>
+            <div class="source-logo-item brand-fimela">FIMELA</div>
+            <div class="source-logo-item brand-wowkeren">WowKeren</div>
+            <div class="source-logo-item brand-posmetro">POS METRO</div>
           </div>
-          <div class="news-card-real">
-            <div class="card-source">
-              <span>✅</span>
-              DewanPers • Verified
-            </div>
-            <div class="card-title-fake" style="color:#f9fafb">Pemerintah Menetapkan UMP Provinsi Tahun 2026 Naik 5%
-            </div>
-          </div>
-          <div class="phone-spacer"></div>
-          <div class="scan-bar">
-            <div class="scan-icon">🔍</div>
-            <div class="scan-text">
-              <strong>Scan Otomatis Aktif</strong>
-              Model NLP LSTM 96.7% Akurasi Latih...
-            </div>
-          </div>
-          <div class="phone-home-indicator"></div>
-        </div>
-      </div>
-    </section>
-
-    <!-- How it Works -->
-    <section class="how-section">
-      <div class="section-header-center">
-        <div class="section-label">Cara Kerja</div>
-        <h2 class="section-title">Proses verifikasi yang transparan</h2>
-      </div>
-
-      <div class="features-grid">
-        <div class="feature-card">
-          <div class="feature-icon cyan">📋</div>
-          <h3>1. Masukkan Konten</h3>
-          <p>ketik judul utama yang Anda ragukan kedalam detektor
-            AI.</p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-icon purple">🤖</div>
-          <h3>2. Analisis Deep Learning</h3>
-          <p>Model neural network Bidirectional LSTM kami memproses struktur kalimat untuk mengklasifikasi kalimat
-            sensasional (clickbait) vs faktual.</p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-icon yellow">🔎</div>
-          <h3>3. Verifikasi Heuristik</h3>
-          <p>Sistem mengekstrak tanda baca emosional, huruf kapital berlebih, dan mencocokkan kata kunci pemicu dari
-            database clickbait.</p>
         </div>
       </div>
     </section>
@@ -136,16 +84,16 @@
     <!-- Stats Banner -->
     <section class="stats-banner">
       <div class="stat-item">
-        <div class="stat-num">2.4M+</div>
-        <div class="stat-label">Berita Terverifikasi</div>
+        <div class="stat-num">15.000+</div>
+        <div class="stat-label">Total Dataset Latih</div>
       </div>
       <div class="stat-item">
-        <div class="stat-num">96.7%</div>
-        <div class="stat-label">Akurasi Latih Model</div>
+        <div class="stat-num">81.47%</div>
+        <div class="stat-label">Akurasi Uji Model</div>
       </div>
       <div class="stat-item">
-        <div class="stat-num">1,200+</div>
-        <div class="stat-label">Sumber Terpercaya</div>
+        <div class="stat-num">1.500</div>
+        <div class="stat-label">Data Evaluasi (Support)</div>
       </div>
       <div class="stat-item">
         <div class="stat-num">&lt; 1 detik</div>
@@ -156,36 +104,25 @@
     <!-- Methodology Section -->
     <section class="methodology-section">
       <div class="section-header-center">
-        <div class="section-label">Metodologi</div>
-        <h2 class="section-title">Bagaimana kami bekerja</h2>
-        <p style="color:var(--text-muted); margin-top:10px;">Kombinasi NLP, database pola, dan validasi tim editorial
-          untuk akurasi tertinggi.</p>
+        <h2 class="section-title">Bagaimana ClickTrap Menganalisis Judul Berita</h2>
+        <p style="color:var(--text-muted); margin-top:10px;">Bagaimana model IndoBERT mengenali dan mendeteksi kebenaran judul berita secara otomatis.</p>
       </div>
 
       <div class="methodology-grid">
         <div class="methodology-card">
           <div class="methodology-letter letter-a">A</div>
-          <h3>Parsing Linguistik</h3>
-          <p>Sistem mengurai struktur kalimat, mendeteksi kata-kata pemicu emosi, pola sintaksis, dan teknik retorika
-            yang umum digunakan clickbait.</p>
+          <h3>Merapikan Kalimat</h3>
+          <p>Judul berita dibersihkan dari simbol-simbol aneh dan dipotong menjadi kata-kata rapi agar mudah dipahami oleh sistem.</p>
         </div>
         <div class="methodology-card">
           <div class="methodology-letter letter-b">B</div>
-          <h3>Pencocokan Pola</h3>
-          <p>Membandingkan dengan 18 pola clickbait teridentifikasi dari analisis 2,4 juta artikel media Indonesia
-            selama 5 tahun terakhir.</p>
+          <h3>Memahami Arti</h3>
+          <p>Model AI membaca judul berita secara utuh untuk memahami maksud, pesan, dan arti kata yang sebenarnya.</p>
         </div>
         <div class="methodology-card">
           <div class="methodology-letter letter-c">C</div>
-          <h3>Skor Emosi & Konteks</h3>
-          <p>Mengukur intensitas emosional dan menilai apakah judul memberikan informasi substantif atau hanya umpan
-            klik tanpa konten.</p>
-        </div>
-        <div class="methodology-card">
-          <div class="methodology-letter letter-d">D</div>
-          <h3>Verdict & Rekomendasi</h3>
-          <p>Menghasilkan skor akhir, label kategori, dan saran konkret cara menulis ulang judul menjadi lebih jujur dan
-            informatif.</p>
+          <h3>Menentukan Hasil</h3>
+          <p>Sistem menghitung nilai persentase kecocokan judul untuk menentukan apakah judul tersebut clickbait atau fakta.</p>
         </div>
       </div>
     </section>
@@ -195,9 +132,8 @@
   <div id="check-tab" class="tab-content">
     <section class="detector-container">
       <div class="section-header-center">
-        <div class="section-label">AI Detector</div>
-        <h2 class="section-title">Verifikasi Kebenaran Judul Berita</h2>
-        <p style="color:var(--text-muted); margin-top:10px;">Gunakan kecerdasan buatan berbasis model LSTM untuk
+        <h2 class="section-title">Deteksi Judul Berita Clickbait</h2>
+        <p style="color:var(--text-muted); margin-top:10px;">Gunakan kecerdasan buatan berbasis model Transformer BERT untuk
           mendeteksi apakah judul berita tergolong sensasional (clickbait) atau informatif (faktual).</p>
       </div>
 
@@ -207,7 +143,7 @@
           <div class="search-input-group">
             <input type="text" id="predictInput" class="search-input"
               placeholder="Contoh: Astaga! Rahasia cepat kaya raya tanpa kerja yang disembunyikan para miliarder..." />
-            <button id="checkBtn" class="search-btn" onclick="checkHeadline()">🔍 Analisis AI</button>
+            <button id="checkBtn" class="search-btn" onclick="checkHeadline()">🔍 Deteksi Clickbait</button>
           </div>
         </div>
 
@@ -225,7 +161,7 @@
         <div class="predict-loading" id="predictLoading">
           <div class="spinner"></div>
           <p style="color: var(--yellow); font-weight: 600;">Sedang menganalisis teks menggunakan model Deep Learning
-            LSTM...</p>
+            BERT (Transformer)...</p>
         </div>
 
         <!-- Result Box -->
@@ -242,36 +178,7 @@
             perhatian.
           </p>
 
-          <div class="result-indicators">
-            <div class="indicator">
-              <div class="ind-label">Prediksi Clickbait</div>
-              <div class="ind-bar-wrap">
-                <div id="barClickbait" class="ind-bar red" style="width: 0%"></div>
-              </div>
-              <div id="valClickbait" class="ind-val" style="margin-top: 8px;">0%</div>
-            </div>
-            <div class="indicator">
-              <div class="ind-label">Emosi Berlebih</div>
-              <div class="ind-bar-wrap">
-                <div id="barEmotion" class="ind-bar yellow" style="width: 0%"></div>
-              </div>
-              <div id="valEmotion" class="ind-val" style="margin-top: 8px;">0%</div>
-            </div>
-            <div class="indicator">
-              <div class="ind-label">Kredibilitas Gaya</div>
-              <div class="ind-bar-wrap">
-                <div id="barSource" class="ind-bar green" style="width: 0%"></div>
-              </div>
-              <div id="valSource" class="ind-val" style="margin-top: 8px;">Normal</div>
-            </div>
-            <div class="indicator">
-              <div class="ind-label">Karakter Objektif</div>
-              <div class="ind-bar-wrap">
-                <div id="barFact" class="ind-bar blue" style="width: 0%"></div>
-              </div>
-              <div id="valFact" class="ind-val" style="margin-top: 8px;">0%</div>
-            </div>
-          </div>
+
         </div>
       </div>
     </section>
@@ -283,19 +190,19 @@
       <div class="section-header-center">
         <div class="section-label">Database Media</div>
         <h2 class="section-title">Direktori Judul Clickbait</h2>
-        <p style="color:var(--text-muted); margin-top:10px;">Kumpulan contoh judul berita clickbait dari dataset lokal
-          yang dianalisis menggunakan kecerdasan buatan.</p>
+        <p style="color:var(--text-muted); margin-top:10px;">Kumpulan contoh judul berita dari dataset lokal yang dianalisis secara manual oleh annotator manusia.</p>
       </div>
 
       <div class="filter-bar">
         <input type="text" id="dirSearchInput" class="directory-search" placeholder="Cari judul clickbait..." />
         <div class="category-filters">
           <button class="filter-btn active" data-category="Semua">Semua</button>
-          <button class="filter-btn" data-category="Kesehatan">Kesehatan</button>
-          <button class="filter-btn" data-category="Politik">Politik</button>
-          <button class="filter-btn" data-category="Keuangan">Keuangan</button>
-          <button class="filter-btn" data-category="Sosial">Sosial</button>
-          <button class="filter-btn" data-category="Pendidikan">Pendidikan</button>
+          <button class="filter-btn" data-category="News">News</button>
+          <button class="filter-btn" data-category="Bola">Bola</button>
+          <button class="filter-btn" data-category="Money">Money</button>
+          <button class="filter-btn" data-category="Entertainment">Entertainment</button>
+          <button class="filter-btn" data-category="Otomotif">Otomotif</button>
+          <button class="filter-btn" data-category="Lifestyle">Lifestyle</button>
         </div>
       </div>
 
@@ -323,7 +230,7 @@
     <section class="edu-container">
       <div class="section-header-center">
         <div class="section-label">Literasi Digital</div>
-        <h2 class="section-title">Kiat Menghindari Clickbait &amp; Manipulasi Judul</h2>
+        <h2 class="section-title">Bongkar Siasat<br>Jebakan Clickbait</h2>
         <p style="color:var(--text-muted); margin-top:10px;">Pelajari cara mendeteksi trik clickbait, perangkap umpan
           klik, dan strategi membaca kritis untuk menghindari disinformasi digital.</p>
       </div>
@@ -439,14 +346,30 @@
 
       <div class="about-card">
         <p class="about-text">
-          <strong>ClickTrap</strong> adalah platform independen yang dikembangkan untuk membantu masyarakat Indonesia
-          memverifikasi kebenaran informasi dan mendeteksi taktik manipulatif penulisan berita, terutama clickbait dan
-          disinformasi.
+          <strong>ClickTrap</strong> adalah platform independen yang dikembangkan untuk membantu memverifikasi kebenaran informasi dan mendeteksi taktik manipulatif penulisan berita, terutama clickbait dan disinformasi. Proyek ini dibangun sebagai bagian dari pemenuhan <strong>tugas akhir semester mata kuliah Natural Language Processing (NLP)</strong>.
         </p>
         <p class="about-text">
-          Dengan menggabungkan kekuatan jurnalisme investigatif dengan kecerdasan buatan, kami berupaya menyediakan alat
-          deteksi otomatis yang cepat, transparan, dan andal.
+          Dengan menggabungkan kekuatan teknologi pengolahan bahasa alami dengan kecerdasan buatan, kami berupaya menyediakan alat deteksi otomatis yang cepat, transparan, dan andal untuk meningkatkan literasi media digital.
         </p>
+
+        <h3 style="font-family:var(--font-display); font-size:20px; margin-top:2.5rem; margin-bottom:1rem; color:var(--white);">Tim Pengembang Proyek</h3>
+        <div class="team-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1.5rem; margin-top: 1rem; margin-bottom: 2rem;">
+          <div class="team-card" style="background: #F8FAFC; border: 1px solid #E2E8F0; padding: 1.5rem; border-radius: 16px; text-align: center; box-shadow: var(--shadow-sm);">
+            <div style="font-size: 2rem; margin-bottom: 0.5rem;">👨‍💻</div>
+            <h4 style="color: #0F172A; font-family: var(--font-sans); font-size: 16px; font-weight: 700; margin-bottom: 4px;">Bata Akbar</h4>
+            <p style="color: var(--text-muted); font-size: 13px; font-weight: 600;">NIM. 2355301030</p>
+          </div>
+          <div class="team-card" style="background: #F8FAFC; border: 1px solid #E2E8F0; padding: 1.5rem; border-radius: 16px; text-align: center; box-shadow: var(--shadow-sm);">
+            <div style="font-size: 2rem; margin-bottom: 0.5rem;">👨‍💻</div>
+            <h4 style="color: #0F172A; font-family: var(--font-sans); font-size: 16px; font-weight: 700; margin-bottom: 4px;">Daffa Hadziq</h4>
+            <p style="color: var(--text-muted); font-size: 13px; font-weight: 600;">NIM. 2355301035</p>
+          </div>
+          <div class="team-card" style="background: #F8FAFC; border: 1px solid #E2E8F0; padding: 1.5rem; border-radius: 16px; text-align: center; box-shadow: var(--shadow-sm);">
+            <div style="font-size: 2rem; margin-bottom: 0.5rem;">👨‍💻</div>
+            <h4 style="color: #0F172A; font-family: var(--font-sans); font-size: 16px; font-weight: 700; margin-bottom: 4px;">Faddly Nugraha</h4>
+            <p style="color: var(--text-muted); font-size: 13px; font-weight: 600;">NIM. 2355301059</p>
+          </div>
+        </div>
 
         <div class="vision-mission-grid">
           <div class="vm-box">
@@ -466,10 +389,8 @@
           style="font-family:var(--font-display); font-size:20px; margin-top:2.5rem; margin-bottom:1rem; color:var(--white);">
           Teknologi AI yang Digunakan</h3>
         <p class="about-text" style="font-size: 14px;">
-          Sistem detektor clickbait kami didukung oleh model **Bidirectional LSTM (Long Short-Term Memory)** yang
-          dilatih menggunakan dataset **ClickID** (15.000 judul berita bahasa Indonesia). Model ini membaca konteks kata
-          dari dua arah (kiri ke kanan dan kanan ke kiri) untuk memahami makna implisit dan struktur hiperbolis judul
-          berita.
+          Sistem detektor clickbait kami didukung oleh model **BERT (Bidirectional Encoder Representations from Transformers)** yang
+          dilatih menggunakan dataset **ClickID** (15.000 judul berita bahasa Indonesia). Model ini memanfaatkan mekanisme *Self-Attention* secara bidirectional (dua arah) untuk menangkap konteks semantik kalimat secara utuh dan mendalam.
         </p>
       </div>
 
@@ -481,98 +402,20 @@
 
         <div class="faq-item">
           <div class="faq-question">Bagaimana AI ClickTrap mendeteksi clickbait? <span class="faq-icon">+</span></div>
-          <div class="faq-answer">AI kami menggunakan neural network LSTM untuk menganalisis struktur kata, sintaksis,
-            dan tingkat kemenarikan judul. Ia mendeteksi pola yang biasa digunakan penulis clickbait untuk memicu
-            penasaran berlebih.</div>
+          <div class="faq-answer">AI kami menggunakan arsitektur model Transformer BERT untuk menganalisis relasi kontekstual antarkata secara mendalam. Ia mendeteksi pola manipulatif dan tingkat kemenarikan judul berita dengan akurasi yang lebih tinggi.</div>
         </div>
 
         <div class="faq-item">
-          <div class="faq-question">Apakah akurasi model LSTM ini 100%? <span class="faq-icon">+</span></div>
-          <div class="faq-answer">Tidak ada model AI yang 100% sempurna. Model LSTM kami dilatih dengan tingkat akurasi
-            latih mencapai 96.7%, namun pada pengujian data dunia nyata tingkat akurasinya berkisar antara 75-78%. Oleh
-            karena itu, kami juga menyertakan analisis heuristik tambahan.</div>
+          <div class="faq-question">Apakah akurasi model IndoBERT ini 100%? <span class="faq-icon">+</span></div>
+          <div class="faq-answer">Tidak ada model AI yang 100% sempurna. Model IndoBERT kami memiliki tingkat akurasi pengujian (test accuracy) sebesar 81,47%, dengan F1-Score Faktual 84,19% dan F1-Score Clickbait 77,62%. Kami juga melengkapinya dengan analisis heuristik untuk detail hasil klasifikasi.</div>
         </div>
 
-        <div class="faq-item">
-          <div class="faq-question">Bagaimana saya bisa berpartisipasi melawan clickbait? <span
-              class="faq-icon">+</span>
-          </div>
-          <div class="faq-answer">Anda bisa melaporkan judul berita atau link mencurigakan melalui tab "Laporkan
-            Clickbait".
-            Tim jurnalis kami akan meninjau laporan Anda dan memasukkannya ke database direktori clickbait.</div>
-        </div>
+
       </div>
     </section>
   </div>
 
-  <!-- ─── 6. LAPORKAN HOAX TAB ─── -->
-  <div id="report-tab" class="tab-content">
-    <section class="report-container">
-      <div class="section-header-center">
-        <div class="section-label">Citizen Report</div>
-        <h2 class="section-title">Kirim Laporan Berita Mencurigakan</h2>
-        <p style="color:var(--text-muted); margin-top:10px;">Menemukan berita di media sosial yang Anda curigai sebagai
-          clickbait atau judul sensasional? Laporkan di sini untuk diverifikasi oleh tim kami.</p>
-      </div>
 
-      <div class="search-card">
-        <!-- Success Alert -->
-        <div class="report-status-alert" id="reportSuccessAlert">
-          <strong>✓ Laporan Terkirim</strong>
-          Laporan Anda telah berhasil dicatat dengan kode tiket: <span id="reportRefCode"
-            style="font-weight:700; color:var(--white);">CF-XXXX</span>. Tim kami akan melakukan peninjauan dalam waktu
-          24 jam. Terima kasih!
-        </div>
-
-        <form id="reportForm">
-          <div class="form-group">
-            <label class="form-label" for="reportTitle">Judul Berita / Klaim Informasi *</label>
-            <input type="text" id="reportTitle" name="title" class="form-control"
-              placeholder="Contoh: Lowongan kerja BUMN mengatasnamakan Pertamina dengan biaya administrasi..."
-              required />
-          </div>
-
-          <div class="form-group">
-            <label class="form-label" for="reportLink">Tautan / Link Berita (Opsional)</label>
-            <input type="url" id="reportLink" name="link" class="form-control"
-              placeholder="https://facebook.com/share/posts/..." />
-          </div>
-
-          <div class="form-group">
-            <label class="form-label" for="reportCategory">Kategori Laporan</label>
-            <select id="reportCategory" name="category" class="form-control">
-              <option value="Kesehatan">Kesehatan</option>
-              <option value="Politik">Politik</option>
-              <option value="Keuangan">Keuangan</option>
-              <option value="Sosial">Sosial / Penipuan</option>
-              <option value="Pendidikan">Pendidikan</option>
-              <option value="Lainnya">Lainnya</option>
-            </select>
-          </div>
-
-          <div class="form-group">
-            <label class="form-label" for="reportDesc">Keterangan Tambahan / Alasan Curiga *</label>
-            <textarea id="reportDesc" name="desc" class="form-control"
-              placeholder="Tuliskan di mana Anda mendapatkan info ini dan mengapa Anda mencurigai kebenaran beritanya..."
-              required></textarea>
-          </div>
-
-          <div class="form-group">
-            <label class="form-label" for="reportEmail">Alamat Email Anda *</label>
-            <input type="email" id="reportEmail" name="email" class="form-control" placeholder="nama@email.com"
-              required />
-            <small style="color:var(--text-muted); font-size:11px; margin-top:4px; display:block;">Email Anda aman dan
-              hanya digunakan untuk mengirimkan status verifikasi laporan.</small>
-          </div>
-
-          <div class="form-group" style="margin-top: 2rem;">
-            <button type="submit" class="btn-primary" style="width: 100%; justify-content: center;">✉ Kirim Laporan
-              Clickbait</button>
-          </div>
-        </form>
-      </div>
-    </section>
-  </div>
 
   <!-- FOOTER -->
   <footer>
@@ -593,7 +436,6 @@
         <ul>
           <li><a href="#" onclick="document.querySelector('.btn-primary').click()">Detektor AI</a></li>
           <li><a href="#" onclick="document.querySelectorAll('.nav-links a')[2].click()">Direktori Clickbait</a></li>
-          <li><a href="#" onclick="document.querySelector('.nav-cta').click()">Kirim Laporan</a></li>
         </ul>
       </div>
 
@@ -610,7 +452,7 @@
         <h4>Tentang Kami</h4>
         <ul>
           <li><a href="#" onclick="document.querySelectorAll('.nav-links a')[4].click()">Visi & Misi</a></li>
-          <li><a href="#" onclick="document.querySelectorAll('.nav-links a')[4].click()">Teknologi LSTM</a></li>
+          <li><a href="#" onclick="document.querySelectorAll('.nav-links a')[4].click()">Teknologi BERT</a></li>
           <li><a href="#" onclick="document.querySelectorAll('.nav-links a')[4].click()">FAQ</a></li>
         </ul>
       </div>

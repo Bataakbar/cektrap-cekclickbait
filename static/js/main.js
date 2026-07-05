@@ -1,179 +1,424 @@
 // ─── STATIC DATA FOR CLICKBAIT DIRECTORY ───
 const CLICKBAIT_DATABASE = [
   {
-    "title": "Viral! Driver Ojol di Bekasi Antar Pesanan Makanan Pakai Sepeda",
-    "category": "Sosial",
-    "date": "2019-09-10",
+    "title": "Kronologi Lengkap Pemuda di Bandung Tusuk Gadis Pujaan karena Cinta Ditolak",
+    "category": "News",
+    "date": "2019-10-09",
     "label": "CLICKBAIT",
-    "link": "https://news.detik.com/berita/d-4701077/viral-driver-ojol-di-bekasi-antar-pesanan-makanan-pakai-sepeda"
+    "link": "https://regional.kompas.com/read/2019/09/10/23090261/kronologi-lengkap-pemuda-di-bandung-tusuk-gadis-pujaan-karena-cinta-ditolak"
   },
   {
-    "title": "Ada Motor Nyangkut di Atas Bambu di Sleman, Kok Bisa?",
-    "category": "Sosial",
-    "date": "2019-09-10",
+    "title": "Acungkan Pisau, Pria Ini Resahkan Pengunjung Pantai Kuta",
+    "category": "News",
+    "date": "2019-09-16",
     "label": "CLICKBAIT",
-    "link": "https://news.detik.com/berita-jawa-tengah/d-4700960/ada-motor-nyangkut-di-atas-bambu-di-sleman-kok-bisa"
+    "link": "https://regional.kompas.com/read/2019/09/16/19094961/acungkan-pisau-pria-ini-resahkan-pengunjung-pantai-kuta"
   },
   {
-    "title": "Pesan Gamblang Poyuono Menolak Revisi UU KPK",
-    "category": "Politik",
-    "date": "2019-09-10",
+    "title": "Senangnya Suporter Thailand Diberi Hadiah Jersey dan Syal Indonesia",
+    "category": "News",
+    "date": "2019-10-09",
     "label": "CLICKBAIT",
-    "link": "https://news.detik.com/berita/d-4700962/pesan-gamblang-poyuono-menolak-revisi-uu-kpk"
+    "link": "https://megapolitan.kompas.com/read/2019/09/10/23034251/senangnya-suporter-thailand-diberi-hadiah-jersey-dan-syal-indonesia"
   },
   {
-    "title": "Kocak! Maling di Rumah Mewah Jakut Terekam CCTV Bingung Cari Jalan Kabur",
-    "category": "Sosial",
-    "date": "2019-09-10",
+    "title": "Penjelasan Pihak SD di Bekasi soal Video Pemukulan Seorang Siswa kepada Teman-temannya",
+    "category": "News",
+    "date": "2019-09-16",
     "label": "CLICKBAIT",
-    "link": "https://news.detik.com/berita/d-4700751/kocak-maling-di-rumah-mewah-jakut-terekam-cctv-bingung-cari-jalan-kabur"
+    "link": "https://megapolitan.kompas.com/read/2019/09/16/18084841/penjelasan-pihak-sd-di-bekasi-soal-video-pemukulan-seorang-siswa-kepada"
   },
   {
-    "title": "Viral Video Diduga Baku Tembak di Sleman, Ini Kata Polisi",
-    "category": "Politik",
-    "date": "2019-09-10",
+    "title": "Sibuk Hingga Batal Bertemu Pimpinan KPK, Ini Agenda Jokowi Seharian",
+    "category": "News",
+    "date": "2019-09-16",
     "label": "CLICKBAIT",
-    "link": "https://news.detik.com/berita-jawa-tengah/d-4700700/viral-video-diduga-baku-tembak-di-sleman-ini-kata-polisi"
+    "link": "https://nasional.kompas.com/read/2019/09/16/18093191/sibuk-hingga-batal-bertemu-pimpinan-kpk-ini-agenda-jokowi-seharian"
   },
   {
-    "title": "Diawasi di Hong Kong, Aktivis Joshua Wong Terbang ke Berlin",
-    "category": "Politik",
-    "date": "2019-09-10",
+    "title": "Ini Anggota Pansus Pemindahan Ibu Kota Bentukan DPR",
+    "category": "News",
+    "date": "2019-09-16",
     "label": "CLICKBAIT",
-    "link": "https://news.detik.com/dw/d-4700698/diawasi-di-hong-kong-aktivis-joshua-wong-terbang-ke-berlin"
+    "link": "https://nasional.kompas.com/read/2019/09/16/17184741/ini-anggota-pansus-pemindahan-ibu-kota-bentukan-dpr"
   },
   {
-    "title": "Waspada! Ada Penipuan Catut Pertamina, Korbannya Rugi Puluhan Juta",
-    "category": "Keuangan",
-    "date": "2019-09-10",
+    "title": "Cerita Saut Diajak Makan Pecel 3 Pimpinan KPK Setelah Tulis Surat Pengunduran Diri",
+    "category": "News",
+    "date": "2019-09-15",
     "label": "CLICKBAIT",
-    "link": "https://news.detik.com/berita-jawa-tengah/d-4700663/waspada-ada-penipuan-catut-pertamina-korbannya-rugi-puluhan-juta"
+    "link": "https://regional.kompas.com/read/2019/09/15/14530941/cerita-saut-diajak-makan-pecel-3-pimpinan-kpk-setelah-tulis-surat"
   },
   {
-    "title": "Jaksa Beberkan Senpi-Peluru Tajam Pembelian Kivlan Zen cs, Ini Rinciannya",
-    "category": "Politik",
-    "date": "2019-09-10",
+    "title": "LIVE STREAMING: Tim Dokter Jelaskan Kondisi Kesehatan BJ Habibie",
+    "category": "News",
+    "date": "2019-10-09",
     "label": "CLICKBAIT",
-    "link": "https://news.detik.com/berita/d-4700465/jaksa-beberkan-senpi-peluru-tajam-pembelian-kivlan-zen-cs-ini-rinciannya"
+    "link": "https://nasional.kompas.com/read/2019/09/10/17485211/live-streaming-tim-dokter-jelaskan-kondisi-kesehatan-bj-habibie"
   },
   {
-    "title": "Sering Quality Time Bersama Keluarga? Ternyata Ini 3 Manfaatnya!",
-    "category": "Kesehatan",
-    "date": "2019-09-10",
-    "label": "CLICKBAIT",
-    "link": "https://news.detik.com/berita/d-4700490/sering-quality-time-bersama-keluarga-ternyata-ini-3-manfaatnya"
+    "title": "Diduga Pasok Sabu di Anambas, Adik Wali Kota Tanjungpinang Ditangkap",
+    "category": "News",
+    "date": "2019-10-09",
+    "label": "FAKTUAL",
+    "link": "https://regional.kompas.com/read/2019/09/10/21485171/diduga-pasok-sabu-di-anambas-adik-wali-kota-tanjungpinang-ditangkap"
   },
   {
-    "title": "Menteri Jokowi 55% Profesional, Ini Kandidatnya?",
-    "category": "Politik",
-    "date": "2019-09-10",
-    "label": "CLICKBAIT",
-    "link": "https://news.detik.com/berita/d-4700478/menteri-jokowi-55-profesional-ini-kandidatnya"
+    "title": "Kualitas Udara di Pontianak Berbahaya, Dinas Kesehatan Siagakan Rumah Oksigen",
+    "category": "News",
+    "date": "2019-09-16",
+    "label": "FAKTUAL",
+    "link": "https://regional.kompas.com/read/2019/09/16/20084941/kualitas-udara-di-pontianak-berbahaya-dinas-kesehatan-siagakan-rumah-oksigen"
   },
   {
-    "title": "Pria Misterius Berjubah Putih Viral di Sumut, Ingatkan 'Tuhan Murka'",
-    "category": "Sosial",
-    "date": "2019-09-10",
+    "title": "Spanduk Pecel Lele hingga Obat Kuat Jadi Cara Jakmania Kritik Persija",
+    "category": "Bola",
+    "date": "2019-09-16",
     "label": "CLICKBAIT",
-    "link": "https://news.detik.com/berita/d-4700430/pria-misterius-berjubah-putih-viral-di-sumut-ingatkan-tuhan-murka"
+    "link": "https://bola.kompas.com/read/2019/09/16/18200058/spanduk-pecel-lele-hingga-obat-kuat-jadi-cara-jakmania-kritik-persija"
   },
   {
-    "title": "Video Porno di Sumedang Disebar Pemeran Pria, Apa Motifnya?",
-    "category": "Sosial",
-    "date": "2019-09-10",
+    "title": "Ini Hasrat Pecatur Andalan Indonesia di Piala Dunia FIDE",
+    "category": "Bola",
+    "date": "2019-10-09",
     "label": "CLICKBAIT",
-    "link": "https://news.detik.com/berita-jawa-barat/d-4700403/video-porno-di-sumedang-disebar-pemeran-pria-apa-motifnya"
+    "link": "https://bola.kompas.com/read/2019/09/10/13584198/ini-hasrat-pecatur-andalan-indonesia-di-piala-dunia-fide"
   },
   {
-    "title": "Terungkap! Video Porno di Sumedang Diperankan Pasangan Selingkuh",
-    "category": "Sosial",
-    "date": "2019-09-10",
+    "title": "Pemain NBA Tak Boleh Lagi Bergaya ala Ninja",
+    "category": "Bola",
+    "date": "2019-10-09",
     "label": "CLICKBAIT",
-    "link": "https://news.detik.com/berita-jawa-barat/d-4700324/terungkap-video-porno-di-sumedang-diperankan-pasangan-selingkuh"
+    "link": "https://bola.kompas.com/read/2019/09/10/08200088/pemain-nba-tak-boleh-lagi-bergaya-ala-ninja"
   },
   {
-    "title": "Kendaraan Listrik Bebas dari Aturan Ganjil-Genap, Ini Alasannya",
-    "category": "Keuangan",
-    "date": "2019-09-10",
+    "title": "Alasan M Rafli Tak Dimainkan sebagai Striker di Arema FC",
+    "category": "Bola",
+    "date": "2019-10-09",
     "label": "CLICKBAIT",
-    "link": "https://news.detik.com/berita/d-4700177/kendaraan-listrik-bebas-dari-aturan-ganjil-genap-ini-alasannya"
+    "link": "https://bola.kompas.com/read/2019/09/10/09400038/alasan-m-rafli-tak-dimainkan-sebagai-striker-di-arema-fc"
   },
   {
-    "title": "Menanti \"Kebijakan Gila\" Jokowi",
-    "category": "Politik",
-    "date": "2019-09-10",
+    "title": "Cerita Paul Cummings dan Fasilitas Disabilitas Stadion Kanjuruhan",
+    "category": "Bola",
+    "date": "2019-10-09",
     "label": "CLICKBAIT",
-    "link": "https://news.detik.com/kolom/d-4700053/menanti-kebijakan-gila-jokowi"
+    "link": "https://bola.kompas.com/read/2019/09/10/10400008/cerita-paul-cummings-dan-fasilitas-disabilitas-stadion-kanjuruhan"
   },
   {
-    "title": "Akhirnya! Pemkot Pekanbaru Liburkan SD dan SMP karena Kabut Asap",
-    "category": "Kesehatan",
-    "date": "2019-09-10",
+    "title": "Catatan Susy Susanti untuk Pemain Elite pada China Open 2019",
+    "category": "Bola",
+    "date": "2019-09-16",
     "label": "CLICKBAIT",
-    "link": "https://news.detik.com/berita/d-4699978/akhirnya-pemkot-pekanbaru-liburkan-sd-dan-smp-karena-kabut-asap"
+    "link": "https://bola.kompas.com/read/2019/09/16/13360038/catatan-susy-susanti-untuk-pemain-elite-pada-china-open-2019"
   },
   {
-    "title": "2 Ribu Hektare Lahan Terbakar, Udara di Palembang Tidak Sehat!",
-    "category": "Kesehatan",
-    "date": "2019-09-10",
+    "title": "Berlangsung Usai Pulang Kerja, Ini Daftar Harga Tiket Laga Timnas U-16",
+    "category": "Bola",
+    "date": "2019-09-16",
     "label": "CLICKBAIT",
-    "link": "https://news.detik.com/berita/d-4699848/2-ribu-hektare-lahan-terbakar-udara-di-palembang-tidak-sehat"
+    "link": "https://bola.kompas.com/read/2019/09/16/07563398/berlangsung-usai-pulang-kerja-ini-daftar-harga-tiket-laga-timnas-u-16"
   },
   {
-    "title": "Viral Bocah di Bekasi Disebut Tewas Akibat Bully, Begini Kata Ketua RT",
-    "category": "Sosial",
-    "date": "2019-09-10",
+    "title": "Ini Tahapan Kompetisi Voli Liga Mahasiswa Jawa Timur",
+    "category": "Bola",
+    "date": "2019-09-16",
     "label": "CLICKBAIT",
-    "link": "https://news.detik.com/berita/d-4699854/viral-bocah-di-bekasi-disebut-tewas-akibat-bully-begini-kata-ketua-rt"
+    "link": "https://bola.kompas.com/read/2019/09/16/14562618/ini-tahapan-kompetisi-voli-liga-mahasiswa-jawa-timur"
   },
   {
-    "title": "Anggota DPRD Banten Ramai-ramai Gadai SK, Ini Kata Kemendagri",
-    "category": "Politik",
-    "date": "2019-09-10",
-    "label": "CLICKBAIT",
-    "link": "https://news.detik.com/berita/d-4699795/anggota-dprd-banten-ramai-ramai-gadai-sk-ini-kata-kemendagri"
+    "title": "Pemain Thailand Beri Hormat ke Suporter Indonesia Usai Pertandingan",
+    "category": "Bola",
+    "date": "2019-10-09",
+    "label": "FAKTUAL",
+    "link": "https://bola.kompas.com/read/2019/09/10/23234808/pemain-thailand-beri-hormat-ke-suporter-indonesia-usai-pertandingan"
   },
   {
-    "title": "Yuk 'Bantu Jokowi Cari Menteri', Ikuti Polling di detikcom!",
-    "category": "Politik",
-    "date": "2019-09-10",
-    "label": "CLICKBAIT",
-    "link": "https://news.detik.com/berita/d-4699669/yuk-bantu-jokowi-cari-menteri-ikuti-polling-di-detikcom"
+    "title": "Manajer Persib Imbau Bobotoh Tak Terpancing Insiden Pelemparan Batu",
+    "category": "Bola",
+    "date": "2019-09-15",
+    "label": "FAKTUAL",
+    "link": "https://bola.kompas.com/read/2019/09/15/18251558/manajer-persib-imbau-bobotoh-tak-terpancing-insiden-pelemparan-batu"
   },
   {
-    "title": "Ini 10 Poin Aspirasi Tokoh Papua Saat Bertemu Jokowi di Istana",
-    "category": "Politik",
-    "date": "2019-09-10",
+    "title": "Minta Anggaran Naik ke Sri Mulyani, Anggota DPR Curhat Terjebak di Lift",
+    "category": "Money",
+    "date": "2019-09-16",
     "label": "CLICKBAIT",
-    "link": "https://news.detik.com/berita/d-4700040/ini-10-poin-aspirasi-tokoh-papua-saat-bertemu-jokowi-di-istana"
+    "link": "https://money.kompas.com/read/2019/09/16/201200026/minta-anggaran-naik-ke-sri-mulyani-anggota-dpr-curhat-terjebak-di-lift"
   },
   {
-    "title": "Viral! Perampok Bercelurit Satroni Rumah Makan Gratis untuk Duafa di Bogor",
-    "category": "Sosial",
-    "date": "2019-09-10",
+    "title": "Ketua HIPMI Lempar Isyarat \"Punya Waktu Longgar\", Ini  Respon Presiden Jokowi",
+    "category": "Money",
+    "date": "2019-09-16",
     "label": "CLICKBAIT",
-    "link": "https://news.detik.com/berita/d-4700083/viral-perampok-bercelurit-satroni-rumah-makan-gratis-untuk-duafa-di-bogor"
+    "link": "https://money.kompas.com/read/2019/09/16/161510826/ketua-hipmi-lempar-isyarat-punya-waktu-longgar-ini-respon-presiden-jokowi"
   },
   {
-    "title": "Perhatian! Ini Nama-nama Kandidat Menteri Jokowi",
-    "category": "Politik",
-    "date": "2019-09-10",
+    "title": "Dirut Sriwijaya Air Dicopot?",
+    "category": "Money",
+    "date": "2019-10-09",
     "label": "CLICKBAIT",
-    "link": "https://news.detik.com/berita/d-4700085/perhatian-ini-nama-nama-kandidat-menteri-jokowi"
+    "link": "https://money.kompas.com/read/2019/09/10/124600426/dirut-sriwijaya-air-dicopot-"
   },
   {
-    "title": "Apakah Pekerja Masih Dibutuhkan Pertambangan Australia Saat Otomatisasi Makin Marak?",
-    "category": "Keuangan",
-    "date": "2019-09-10",
+    "title": "Lanjutkan Penguatan, Berikut Kurs Rupiah Hari Ini di 6 Bank",
+    "category": "Money",
+    "date": "2019-10-09",
     "label": "CLICKBAIT",
-    "link": "https://news.detik.com/abc-australia/d-4700121/apakah-pekerja-masih-dibutuhkan-pertambangan-australia-saat-otomatisasi-makin-marak"
+    "link": "https://money.kompas.com/read/2019/09/10/120200926/lanjutkan-penguatan-berikut-kurs-rupiah-hari-ini-di-6-bank"
   },
   {
-    "title": "Pasang Status 'Single', Inilah Saat Terakhir Kehidupan Novy Chardon",
-    "category": "Sosial",
-    "date": "2019-09-10",
+    "title": "Saat Luhut dan Susi Pamit...",
+    "category": "Money",
+    "date": "2019-10-09",
     "label": "CLICKBAIT",
-    "link": "https://news.detik.com/abc-australia/d-4700327/pasang-status-single-inilah-saat-terakhir-kehidupan-novy-chardon"
+    "link": "https://money.kompas.com/read/2019/09/10/114200726/saat-luhut-dan-susi-pamit-"
+  },
+  {
+    "title": "Karyawan Amazon Bakal Turun ke Jalan Lakukan Protes, Apa Alasannya?",
+    "category": "Money",
+    "date": "2019-10-09",
+    "label": "CLICKBAIT",
+    "link": "https://money.kompas.com/read/2019/09/10/111200426/karyawan-amazon-bakal-turun-ke-jalan-lakukan-protes-apa-alasannya-"
+  },
+  {
+    "title": "Sri Mulyani Ingin Rekam Medis 267 Juta Penduduk RI Diidentifikasi, Kenapa?",
+    "category": "Money",
+    "date": "2019-10-09",
+    "label": "CLICKBAIT",
+    "link": "https://money.kompas.com/read/2019/09/10/101000226/sri-mulyani-ingin-rekam-medis-267-juta-penduduk-ri-diidentifikasi-kenapa-"
+  },
+  {
+    "title": "Ketika Menteri Susi Minta Maaf dan Akui Dirinya Sedikit Tengil...",
+    "category": "Money",
+    "date": "2019-10-09",
+    "label": "CLICKBAIT",
+    "link": "https://money.kompas.com/read/2019/09/10/090400326/ketika-menteri-susi-minta-maaf-dan-akui-dirinya-sedikit-tengil"
+  },
+  {
+    "title": "Bukalapak soal Kabar PHK: Penataan Diri Perusahaan Harus Dilakukan",
+    "category": "Money",
+    "date": "2019-10-09",
+    "label": "FAKTUAL",
+    "link": "https://money.kompas.com/read/2019/09/10/201000026/bukalapak-soal-kabar-phk-penataan-diri-perusahaan-harus-dilakukan"
+  },
+  {
+    "title": "Susi: Kalau Masih Pakai Cantrang, Jangan Pikir Indonesia Ini Kaya",
+    "category": "Money",
+    "date": "2019-10-09",
+    "label": "FAKTUAL",
+    "link": "https://money.kompas.com/read/2019/09/10/165734626/susi-kalau-masih-pakai-cantrang-jangan-pikir-indonesia-ini-kaya"
+  },
+  {
+    "title": "Puisi Hairdryer Dian Sastro yang Tak Terduga dan Reaksi Netizen",
+    "category": "Entertainment",
+    "date": "2019-10-09",
+    "label": "CLICKBAIT",
+    "link": "https://entertainment.kompas.com/read/2019/09/10/231308810/puisi-hairdryer-dian-sastro-yang-tak-terduga-dan-reaksi-netizen"
+  },
+  {
+    "title": "Unggah Foto Bersama Habibie, Syahrini: Semoga Dipertemukan dengan Ibu Ainun di Surga",
+    "category": "Entertainment",
+    "date": "2019-11-09",
+    "label": "CLICKBAIT",
+    "link": "https://entertainment.kompas.com/read/2019/09/11/224250510/unggah-foto-bersama-habibie-syahrini-semoga-dipertemukan-dengan-ibu"
+  },
+  {
+    "title": "5 Fakta Menarik Animasi SpongeBob SquarePants yang Perlu Kamu Tahu!",
+    "category": "Entertainment",
+    "date": "2019-09-15",
+    "label": "CLICKBAIT",
+    "link": "https://entertainment.kompas.com/read/2019/09/15/181328310/5-fakta-menarik-animasi-spongebob-squarepants-yang-perlu-kamu-tahu"
+  },
+  {
+    "title": "Chris Hemsworth atau Natalie Portman, Ini Bintang Utama Thor: Love and Thunder",
+    "category": "Entertainment",
+    "date": "2019-09-15",
+    "label": "CLICKBAIT",
+    "link": "https://entertainment.kompas.com/read/2019/09/15/180637910/chris-hemsworth-atau-natalie-portman-ini-bintang-utama-thor-love-and"
+  },
+  {
+    "title": "6 Reaksi Shandy Aulia Hadapi Netizen Julid",
+    "category": "Entertainment",
+    "date": "2019-10-09",
+    "label": "CLICKBAIT",
+    "link": "https://entertainment.kompas.com/read/2019/09/10/145400810/6-reaksi-shandy-aulia-hadapi-netizen-julid"
+  },
+  {
+    "title": "Anak Posesif, Nicky Tirta Dilarang Dekat dengan Wanita Lain",
+    "category": "Entertainment",
+    "date": "2019-10-09",
+    "label": "CLICKBAIT",
+    "link": "https://entertainment.kompas.com/read/2019/09/10/141117810/anak-posesif-nicky-tirta-dilarang-dekat-dengan-wanita-lain"
+  },
+  {
+    "title": "Dul Jaelani: Tolong Maafkan Saya... Maafkan Saya...",
+    "category": "Entertainment",
+    "date": "2019-10-09",
+    "label": "CLICKBAIT",
+    "link": "https://entertainment.kompas.com/read/2019/09/10/072632810/dul-jaelani-tolong-maafkan-saya-maafkan-saya"
+  },
+  {
+    "title": "Kemal Mochtar Berhasil Turunkan Berat Badan 50 Kg dalam Setahun, Apa Rahasianya?",
+    "category": "Entertainment",
+    "date": "2019-10-09",
+    "label": "CLICKBAIT",
+    "link": "https://entertainment.kompas.com/read/2019/09/10/073000310/kemal-mochtar-berhasil-turunkan-berat-badan-50-kg-dalam-setahun-apa"
+  },
+  {
+    "title": "Ahmad Dhani dan Kabar Tidak Santuni Korban Kecelakaan Dul Jaelani",
+    "category": "Entertainment",
+    "date": "2019-10-09",
+    "label": "FAKTUAL",
+    "link": "https://entertainment.kompas.com/read/2019/09/10/124954110/ahmad-dhani-dan-kabar-tidak-santuni-korban-kecelakaan-dul-jaelani"
+  },
+  {
+    "title": "Serba-serbi Soundrenaline 2019, Musisi Ngamen hingga Kemping",
+    "category": "Entertainment",
+    "date": "2019-10-09",
+    "label": "FAKTUAL",
+    "link": "https://entertainment.kompas.com/read/2019/09/10/115740510/serba-serbi-soundrenaline-2019-musisi-ngamen-hingga-kemping"
+  },
+  {
+    "title": "Viral Pemutihan SIM yang Sudah Mati, Polisi Sebut Hoax",
+    "category": "Otomotif",
+    "date": "2019-10-09",
+    "label": "CLICKBAIT",
+    "link": "https://otomotif.kompas.com/read/2019/09/10/133325815/viral-pemutihan-sim-yang-sudah-mati-polisi-sebut-hoax"
+  },
+  {
+    "title": "Bocoran Foto Daihatsu Sigra Facelift",
+    "category": "Otomotif",
+    "date": "2019-10-09",
+    "label": "CLICKBAIT",
+    "link": "https://otomotif.kompas.com/read/2019/09/10/144205615/bocoran-foto-daihatsu-sigra-facelift"
+  },
+  {
+    "title": "Tips Bagi yang Berniat Memelihara VW Kodok",
+    "category": "Otomotif",
+    "date": "2019-10-09",
+    "label": "CLICKBAIT",
+    "link": "https://otomotif.kompas.com/read/2019/09/10/110200715/tips-bagi-yang-berniat-memelihara-vw-kodok-"
+  },
+  {
+    "title": "Bedanya Teknologi Hybrid e-Power pada Nissan Note",
+    "category": "Otomotif",
+    "date": "2019-10-09",
+    "label": "CLICKBAIT",
+    "link": "https://otomotif.kompas.com/read/2019/09/10/100100115/bedanya-teknologi-hybrid-e-power-pada-nissan-note"
+  },
+  {
+    "title": "Pindah Ibu Kota Pengaruhi Arus Era Kendaraan Listrik?",
+    "category": "Otomotif",
+    "date": "2019-10-09",
+    "label": "CLICKBAIT",
+    "link": "https://otomotif.kompas.com/read/2019/09/10/070200515/pindah-ibu-kota-pengaruhi-arus-era-kendaraan-listrik-"
+  },
+  {
+    "title": "Bagaimana Persiapan Mobil Tua Sebelum Touring Jarak Jauh?",
+    "category": "Otomotif",
+    "date": "2019-10-09",
+    "label": "CLICKBAIT",
+    "link": "https://otomotif.kompas.com/read/2019/09/10/113200415/bagaimana-persiapan-mobil-tua-sebelum-touring-jarak-jauh-"
+  },
+  {
+    "title": "Calya-Sigra Facelift Siap Meluncur, Simak Harga Bekasnya Sekarang",
+    "category": "Otomotif",
+    "date": "2019-10-09",
+    "label": "CLICKBAIT",
+    "link": "https://otomotif.kompas.com/read/2019/09/10/122035415/calya-sigra-facelift-siap-meluncur-simak-harga-bekasnya-sekarang"
+  },
+  {
+    "title": "Mobil Tua Asal Perancis Menjelma Jadi Mobil Listrik [VIDEO]",
+    "category": "Otomotif",
+    "date": "2019-10-09",
+    "label": "CLICKBAIT",
+    "link": "https://otomotif.kompas.com/read/2019/09/10/123100815/mobil-tua-asal-perancis-menjelma-jadi-mobil-listrik-video-"
+  },
+  {
+    "title": "Komunitas Puas dengan Toyota Calya dan Daihatsu Sigra Terbaru",
+    "category": "Otomotif",
+    "date": "2019-09-16",
+    "label": "FAKTUAL",
+    "link": "https://otomotif.kompas.com/read/2019/09/16/191041715/komunitas-puas-dengan-toyota-calya-dan-daihatsu-sigra-terbaru"
+  },
+  {
+    "title": "Kecelakaan Tol Jagorawi, Pelajaran dari Fatalnya Pecah Ban Mobil",
+    "category": "Otomotif",
+    "date": "2019-09-15",
+    "label": "FAKTUAL",
+    "link": "https://otomotif.kompas.com/read/2019/09/15/145142415/kecelakaan-tol-jagorawi-pelajaran-dari-fatalnya-pecah-ban-mobil"
+  },
+  {
+    "title": "Wanita dengan Tubuh Berisi Terbukti Bikin Pria Lebih Bahagia",
+    "category": "Lifestyle",
+    "date": "2019-09-16",
+    "label": "CLICKBAIT",
+    "link": "https://lifestyle.kompas.com/read/2019/09/16/225817420/wanita-dengan-tubuh-berisi-terbukti-bikin-pria-lebih-bahagia"
+  },
+  {
+    "title": "Sarapan Bikin Ngantuk, Mitos atau Fakta?",
+    "category": "Lifestyle",
+    "date": "2019-09-16",
+    "label": "CLICKBAIT",
+    "link": "https://lifestyle.kompas.com/read/2019/09/16/201820820/sarapan-bikin-ngantuk-mitos-atau-fakta"
+  },
+  {
+    "title": "Gagal, Rencana 3.000 Orang Main Petak Umpet di IKEA",
+    "category": "Lifestyle",
+    "date": "2019-10-09",
+    "label": "CLICKBAIT",
+    "link": "https://lifestyle.kompas.com/read/2019/09/10/145822720/gagal-rencana-3000-orang-main-petak-umpet-di-ikea"
+  },
+  {
+    "title": "Lambaian Tangan Meghan Markle di Tengah Keramaian Final US Open...",
+    "category": "Lifestyle",
+    "date": "2019-10-09",
+    "label": "CLICKBAIT",
+    "link": "https://lifestyle.kompas.com/read/2019/09/10/115735720/lambaian-tangan-meghan-markle-di-tengah-keramaian-final-us-open"
+  },
+  {
+    "title": "Sisi Buruk Tote Bag Pengganti Kantong Plastik",
+    "category": "Lifestyle",
+    "date": "2019-10-09",
+    "label": "CLICKBAIT",
+    "link": "https://lifestyle.kompas.com/read/2019/09/10/120800420/sisi-buruk-tote-bag-pengganti-kantong-plastik"
+  },
+  {
+    "title": "Bagaimana Pilihan Jenis Gelas Bisa Pengaruhi Rasa Kopi?",
+    "category": "Lifestyle",
+    "date": "2019-10-09",
+    "label": "CLICKBAIT",
+    "link": "https://lifestyle.kompas.com/read/2019/09/10/100515020/bagaimana-pilihan-jenis-gelas-bisa-pengaruhi-rasa-kopi"
+  },
+  {
+    "title": "Waspada Bahaya Polutan Udara di Dalam Ruangan",
+    "category": "Lifestyle",
+    "date": "2019-10-09",
+    "label": "CLICKBAIT",
+    "link": "https://lifestyle.kompas.com/read/2019/09/10/095900820/waspada-bahaya-polutan-udara-di-dalam-ruangan-"
+  },
+  {
+    "title": "16 Manfaat Renang Bagi Tubuh yang Tak Bisa Diremehkan",
+    "category": "Lifestyle",
+    "date": "2019-10-09",
+    "label": "CLICKBAIT",
+    "link": "https://lifestyle.kompas.com/read/2019/09/10/050500920/16-manfaat-renang-bagi-tubuh-yang-tak-bisa-diremehkan"
+  },
+  {
+    "title": "\"Impulse Buying\", Alasan Exsport Resmi Garap Pasar Perempuan",
+    "category": "Lifestyle",
+    "date": "2019-10-09",
+    "label": "FAKTUAL",
+    "link": "https://lifestyle.kompas.com/read/2019/09/10/105857020/impulse-buying-alasan-exsport-resmi-garap-pasar-perempuan"
+  },
+  {
+    "title": "Melirik Duo Sepatu Derby Kreasi Kolaborasi Hender Scheme x Dr Martens",
+    "category": "Lifestyle",
+    "date": "2019-10-09",
+    "label": "FAKTUAL",
+    "link": "https://lifestyle.kompas.com/read/2019/09/10/072412520/melirik-duo-sepatu-derby-kreasi-kolaborasi-hender-scheme-x-dr-martens"
   }
 ];
 
@@ -433,52 +678,16 @@ function initFormHandlers() {
   }
 }
 
-// ─── VISUALIZE DETECTOR RESULTS ───
 function displayPredictionResult(data) {
   const resultCard = document.getElementById("resultCard");
   const resVerdictBadge = document.getElementById("resVerdictBadge");
   const resScoreText = document.getElementById("resScoreText");
   const resMetaDesc = document.getElementById("resMetaDesc");
 
-  const barClickbait = document.getElementById("barClickbait");
-  const valClickbait = document.getElementById("valClickbait");
-  
-  const barEmotion = document.getElementById("barEmotion");
-  const valEmotion = document.getElementById("valEmotion");
-  
-  const barSource = document.getElementById("barSource");
-  const valSource = document.getElementById("valSource");
-  
-  const barFact = document.getElementById("barFact");
-  const valFact = document.getElementById("valFact");
-
   if (!resultCard) return;
 
   // Show panel
   resultCard.style.display = "block";
-
-  // Dynamic calculations based on probability
-  const probPercent = Math.round(data.probability * 100);
-  const heuristics = data.heuristics;
-
-  // Calculate emotion/exaggeration score based on capital letters and punctuation
-  let emotionScore = 0;
-  if (heuristics.exclamation_count > 0) emotionScore += 35 * heuristics.exclamation_count;
-  if (heuristics.question_count > 0) emotionScore += 20 * heuristics.question_count;
-  if (heuristics.ellipsis_count > 0) emotionScore += 15;
-  emotionScore += Math.round(heuristics.caps_ratio * 100);
-  emotionScore = Math.min(95, Math.max(10, emotionScore)); // limit between 10-95%
-  
-  // Calculate objectivity score
-  const objectivityScore = 100 - probPercent;
-
-  // Calculate credibility score
-  let credibilityScore = 0;
-  if (data.verdict === "CLICKBAIT") {
-    credibilityScore = Math.max(8, Math.round(100 - (data.probability * 85)));
-  } else {
-    credibilityScore = Math.min(98, Math.round(75 + ((1.0 - data.probability) * 23)));
-  }
 
   const isClickbait = data.verdict === "CLICKBAIT";
   if (resVerdictBadge) {
@@ -490,35 +699,15 @@ function displayPredictionResult(data) {
     resScoreText.innerHTML = `${data.confidence}% <small>kepercayaan</small>`;
   }
 
-  let kwText = "";
-  if (heuristics.has_clickbait_keywords) {
-    kwText = ` Judul menggunakan kata kunci pemancing: <strong>${heuristics.matched_keywords.join(', ')}</strong>.`;
-  }
-  
   let summary = "";
   if (isClickbait) {
-    summary = `Judul berita terindikasi kuat sebagai clickbait karena menggunakan kalimat provokatif untuk menarik perhatian.${kwText}`;
+    summary = `Judul berita terindikasi kuat sebagai clickbait karena menggunakan kalimat provokatif untuk menarik perhatian.`;
   } else {
     summary = `Judul berita tergolong informatif, objektif, dan faktual. Tidak ditemukan indikasi manipulasi clickbait yang signifikan.`;
   }
   if (resMetaDesc) {
     resMetaDesc.innerHTML = summary;
   }
-
-  // Animate progress bars
-  setTimeout(() => {
-    if (barClickbait) barClickbait.style.width = `${probPercent}%`;
-    if (valClickbait) valClickbait.textContent = `${probPercent}%`;
-
-    if (barEmotion) barEmotion.style.width = `${emotionScore}%`;
-    if (valEmotion) valEmotion.textContent = `${emotionScore}%`;
-
-    if (barSource) barSource.style.width = `${credibilityScore}%`;
-    if (valSource) valSource.textContent = `${credibilityScore}%`;
-
-    if (barFact) barFact.style.width = `${objectivityScore}%`;
-    if (valFact) valFact.textContent = `${objectivityScore}%`;
-  }, 100);
 
   // Scroll result into view
   setTimeout(() => resultCard.scrollIntoView({ behavior: "smooth", block: "nearest" }), 150);

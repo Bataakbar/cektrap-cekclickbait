@@ -20,3 +20,12 @@ env/
 # System files
 Thumbs.db
 .DS_Store
+
+# Large Model Weights and Binaries
+*.safetensors
+*.bin
+*.pt
+*.keras
+*.pickle
+*.h5
+

@@ -1,4 +1,6 @@
 Flask
-tensorflow-cpu
+torch
+transformers
+safetensors
 numpy
 gunicorn
